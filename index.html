@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to NSW Interstate Express</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="index.js" defer></script>
+    <title> </title>
+    <link rel ="stylesheet" href ="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <img src ="images/train.png"
+    <form id ="form" action="results.html" method = "GET">
+        <div class="NSW train">
+            <h1>NSW Train Booking</h1>
+            <div class="Main" >
+                <input id="return" name="ticket-type" type="radio" value="return" required>
+                <label for="return">Roundtrip</label>
+                <input id="one-way" name="ticket-type" type="radio" value="one-way" required>
+                <label for="one-way">One Way</label>
+        
+            </div>
+
+            <div>
+                <div id="from-div">
+                    <label for="from">From:</label>
+                    
+
+                    <select id = "from" required>
+                        <option value="" selected disabled>Select</option>
+                        <option value="newcastle">New Castle</option>                    
+                        <option value="Perth">Perth</option>
+                        <option value="Adelaide">Adelaide</option>
+                        
+                    </select>
+                </div>
+
+                <div id="to-div">
+                    <label for="to">To:</label>
+                    
+                    <select id = "to" required>
+                    <option value="" selected disabled>Select</option>
+                        <option value="newcastle">New Castle</option>                    
+                        <option value="Perth">Perth</option>
+                        <option value="Adelaide">Adelaide</option>
+                        </select>
+                </div>
+
+             </div>
+           
+            <div id="depart-div">
+                <label for="departing">Departing:</label>
+                <input id="departing" name="departing" type="date" required>
+            </div>
+
+          <br>
+            <div id="return-div">
+                <label for="returning">Returning:</label>
+                <input id="returning" name="returning" type="date" required>
+            </div>
+
+
+
+
+            
+            <div id="pass-one">
+                <div>
+                    <p>Passenger 1</p>
+                    <label for="pass-one-fname">First Name:</label>
+                    <input id="pass-one-fname" name="pass-one-fname" type="text">
+                    <label for="pass-one-lname">Last Name:</label>
+                    <input id="pass-one-lname" name="pass-one-lname" type="text">
+                </div>
+
+                <div>
+                    <p>Gender</p>
+                    <input id="pass-one-male" name="pass-one-gender" type="radio" value="male">
+                    <label for="pass-one-male">Male</label>
+                    <input id="pass-one-female" name="pass-one-gender" type="radio" value="female">
+                    <label for="pass-one-female">Female</label>
+                </div>
+
+                <div>
+                    <label for="pass-one-age">Age:</label>
+                    <input id="pass-one-age" name="pass-one-age" type="number" min="1" max="150">
+                </div>
+            </div>
+
+            <hr>
+
+            <div id="pass-two">
+                <div>
+                    <p>Passenger 2</p>
+                    <label for="pass-two-fname">First Name:</label>
+                    <input id="pass-two-fname" name="pass-two-fname" type="text">
+                    <label for="pass-two-lname">Last Name:</label>
+                    <input id="pass-two-lname" name="pass-two-lname" type="text">
+                </div>
+
+                <div>
+                    <p>Gender</p>
+                    <input id="pass-two-male" name="pass-two-gender" type="radio" value="male">
+                    <label for="pass-two-male">Male</label>
+                    <input id="pass-two-female" name="pass-two-gender" type="radio" value="female">
+                    <label for="pass-two-female">Female</label>
+                </div>
+
+                <div>
+                    <label for="pass-two-age">Age:</label>
+                    <input id="pass-two-age" name="pass-two-age" type="number" min="1" max="150">
+                </div>
+            </div>
+
+            <hr>        
+
+        
+
+        <div class="contact">
+            <label>Contact Information</label><br/><br/>
+            <label>Email</label><br/>
+            
+            <input type="text"  required /><br/>
+            <div class="mobile">
+                <label>Mobile Number</label><br/>
+                <input type="number" id="mobile" placeholder="Enter your mobile number here " required/><br>
+            </div>
+            
+            
+        <button type="submit" >Submit</button>
+    </div>
+</form>
+
+
+
+</body>
+</html>
+    
+        
